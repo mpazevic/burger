@@ -1,7 +1,8 @@
 <h1>EAT-DA-BURGER</h1>
-
+<!--Main content-->
 <div class="container" id="content-wrapper">
   <div class="row">
+    <!--Left side output-->
     <div class="col-xs-3 col-xs-offset-3" id="left-side-output">
       {{#each burgers}}
           {{#unless this.devoured}}
@@ -15,6 +16,7 @@
           {{/unless}}
       {{/each}}
     </div>
+    <!--Right side output-->
     <div class="col-xs-4" id="right-side-output">
       {{#each burgers}}
         {{#if this.devoured}}
