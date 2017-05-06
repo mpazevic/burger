@@ -1,10 +1,10 @@
 const connection = require("../config/connection.js");
 
 const orm = {
-  selectAll(tableInput, tableBoolean, booleanValue, callback) {
-    let queryString = "SELECT * FROM ?? WHERE ?? = ?";
+  selectAll(tableInput, callback) {
+    let queryString = "SELECT * FROM ??";
 
-    connection.query(queryString, [tableInput, tableBoolean, booleanValue], (err, result) => {
+    connection.query(queryString, [tableInput], (err, result) => {
       if (err) {
         console.log("Error: " + err.stack);
         return;

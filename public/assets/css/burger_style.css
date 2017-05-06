@@ -1,0 +1,68 @@
+body {
+  background: url('/assets/img/burger_img.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-size: 100vw 100vh;
+  font-family: 'Slabo 27px', serif;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 45px;
+  font-family: 'Monoton', cursive;
+}
+
+.left-output-button {
+  padding: 8px;
+  margin-left: 10px;
+}
+
+#single-burger-left {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#inner-form-left {
+  margin-bottom: 20px;
+}
+
+#right-side-output {
+  float: left;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#single-burger-right {
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+textarea {
+  font-family: "Slabo 27px";
+  text-align-last: center;
+  text-align: center;
+  white-space: normal;
+  resize: none;
+  font-size: 15px;
+  padding-top: 25px;
+  width: 240px;
+}
+.submit-area {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#submit-button {
+  margin-top: 10px;
+}
+
+#submit-text {
+  color: #ffffff;
+  font-size: 11px;
+  margin-top: 15px;
+}
