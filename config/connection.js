@@ -2,7 +2,7 @@
 //to connect upon running the server.
 const mysql = require("mysql");
 
-const connection = mysql.createConnection({
+let connection = mysql.createConnection({
   host: "localhost",
   user: "root",
   database: "burgers_db"
